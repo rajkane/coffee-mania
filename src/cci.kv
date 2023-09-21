@@ -1,0 +1,29 @@
+MainBoxLayout:
+
+<MainBoxLayout>:
+    orientation: "vertical"
+    canvas.before:
+        Color:
+            rgba: (1, 1, 1, .5)
+        Rectangle:
+            source:'./data/coffee.jpg'
+            size: root.width, root.height
+    Label:
+        id: count_coffee
+        text: root.display
+        font_size: dp(300)
+        color: root.check_color()
+    Button:
+        text: "Invite a Colleague"
+        font_size: dp(32)
+        color: (152/255, 251/255, 152/255, 1)
+        background_color: (0.1, 0.5, 0.6, 1)
+        size_hint: 1, .2
+        on_press: root.add()
+    Button:
+        text: "Invited by a Colleague"
+        font_size: dp(32)
+        color: (180/255, 0, 137/255, 1)
+        background_color: (0.1, 0.5, 0.6, 1)
+        size_hint: 1, .2
+        on_press: root.remove()
