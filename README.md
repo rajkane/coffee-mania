@@ -1,4 +1,4 @@
-# Coffee mania
+# Coffee Mania
 a small application developed for me and my colleague.
 Since we are both coffee lovers and often one of us is missing small coins, we invite each other =].
 
