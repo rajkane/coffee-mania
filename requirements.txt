@@ -1,10 +1,12 @@
-certifi==2023.7.22
+certifi==2024.7.4
 charset-normalizer==3.1.0
 docutils==0.19
-idna==3.4
+idna==3.7
 Kivy==2.1.0
 Kivy-Garden==0.1.5
 numpy==1.24.2
 Pygments==2.15.0
 requests==2.31.0
 urllib3==1.26.19
+requests==2.32.0
+urllib3==1.26.18
